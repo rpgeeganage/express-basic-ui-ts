@@ -15,7 +15,7 @@ down:
 	docker-compose -p ${DEV_PROJECT_NAME} down
 
 start:
-	docker-compose -p ${PROJECT_NAME} -f ${DOCKER_COMPOSE}  up ${SERVICE_NAME}
+	docker-compose -p ${PROJECT_NAME} -f ${DOCKER_COMPOSE} up ${SERVICE_NAME}
 
 clean:
 	docker rm $$(docker ps -q -f status=exited)

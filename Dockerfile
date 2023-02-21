@@ -1,7 +1,7 @@
 ############
 # Base image
 ############
-FROM node:18.13.0-alpine
+FROM node:18.13.0-alpine as basic-ui-express
 
 WORKDIR /app
 

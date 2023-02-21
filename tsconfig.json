@@ -14,7 +14,7 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "moduleResolution": "node",
-    "baseUrl": "./src",
+    "baseUrl": "backend",
     "paths": {
       "src/*": ["./*"]
     },
@@ -26,5 +26,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["./src/**/*", "./tests/**/*.ts"]
+  "include": ["backend/**/*", "./tests/**/*.ts"]
 }

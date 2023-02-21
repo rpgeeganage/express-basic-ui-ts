@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import express, { Request, Response, NextFunction } from 'express';
 
 const PORT = 80;
-const publicFolder = join(__dirname, '..', 'public');
+const publicFolder = join(__dirname, '..', 'frontend');
 
 const app = express();
 // eslint-disable-next-line import/no-named-as-default-member

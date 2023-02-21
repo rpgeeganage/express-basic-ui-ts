@@ -5,8 +5,8 @@
 
 ## Folder structure
 
-- `/src` contains all the `backend` server/service code.
-- `/public` folder contains the `frontend` code.
+- `/backend` contains all the `backend` server/service code.
+- `/frontend` folder contains the `frontend` code.
 
 ## How to do development
 

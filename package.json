@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && tsc",
-    "postbuild": "cp -r public build/",
+    "postbuild": "cp -r frontend build/",
     "test": "jest",
-    "start": "node ./build/src/app.js",
+    "start": "node ./build/backend/app.js",
     "lint": "eslint --ext ts ./",
     "fix:lint": "npm run lint -- --fix",
     "prepare": "husky install"
@@ -42,7 +42,7 @@
     "typescript": "4.9.4"
   },
   "_moduleAliases": {
-    "src": "build/src"
+    "src": "build/backend"
   },
   "lint-staged": {
     "*.ts": "eslint --cache --fix",

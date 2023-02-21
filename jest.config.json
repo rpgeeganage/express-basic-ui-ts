@@ -19,6 +19,6 @@
   "coveragePathIgnorePatterns": ["/node_modules/", "<rootDir>/tests"],
   "reporters": ["default"],
   "moduleNameMapper": {
-    "^src/(.*)$": "<rootDir>/src/$1"
+    "^backend/(.*)$": "<rootDir>/backend/$1"
   }
 }
