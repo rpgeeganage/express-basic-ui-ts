@@ -1,6 +1,9 @@
-## npm commands
+## Folder structure
 
-### How to do development
+- `/src` contains all the `backend` server/service code.
+- `/public` folder contains the `frontend` code.
+
+## How to do development
 
 - Run following commands
 
