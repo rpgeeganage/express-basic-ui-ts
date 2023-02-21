@@ -1,3 +1,8 @@
+## Tech stack
+
+- `Backend` is 100%- `TypeScript`.
+- `Frontend` is 100%- `JavaScript`.
+
 ## Folder structure
 
 - `/src` contains all the `backend` server/service code.
