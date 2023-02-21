@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  basic-ui-express:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: basic-ui-express
+    env_file:
+      - docker_env.env_file
+    ports:
+      - 8080:80
+    volumes:
+      - .:/app
+    logging:
+      driver: json-file
