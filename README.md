@@ -17,6 +17,8 @@ make cmd
 npm run build && npm start
 ```
 
+then you can access the server from [`http://localhost:8080`](http://localhost:8080).
+
 - Start service
 
 ```sh
