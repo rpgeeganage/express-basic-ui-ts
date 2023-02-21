@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .base {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .button {
+        background-color: #008cba;
+      }
+      .div {
+        background-color: #4CAF50;
+      }
+    </style>
+    <title>Basic HTML page</title>
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <div id="sample" class="base div"><b>Not from API call</b></div>
+    <br/>
+    <button class="base button" onclick="callApi()">Click me</button>
+  </body>
+</html>

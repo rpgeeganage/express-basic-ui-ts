@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && tsc",
-    "postbuild": "",
+    "postbuild": "cp -r public build/",
     "test": "jest",
-    "start": "node ./build/src/index.ts",
+    "start": "node ./build/src/app.js",
     "lint": "eslint --ext ts ./",
     "fix:lint": "npm run lint -- --fix",
     "prepare": "husky install"
